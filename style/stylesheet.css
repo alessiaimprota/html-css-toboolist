@@ -1,3 +1,7 @@
+/*
+color palette
+hsl(210deg 28.57% 97.25%)
+*/
 /*Reset*/
 *{
 margin: 0;
@@ -7,4 +11,46 @@ box-sizing: content-box;
 
 /*Utility*/
 
+body{
+font-family: "Inter", sans-serif;
+}
+
+.background-gray{
+    background-color: hsl(207, 10%, 66%)
+;
+    height: 100px;
+}
+
 /*Regole*/
+
+
+/*Header*/
+header{
+    height: 100px;
+    line-height: 100px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+header img{
+    width: 100px;
+    vertical-align: middle;
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 3rem
+}
+
+/*MAIN*/
+
+main{
+    padding: 50px;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
