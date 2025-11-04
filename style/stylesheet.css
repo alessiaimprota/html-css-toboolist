@@ -6,7 +6,7 @@ hsl(210deg 28.57% 97.25%)
 *{
 margin: 0;
 padding: 0;
-box-sizing: content-box;
+box-sizing: border-box;
 }
 
 /*Utility*/
@@ -56,15 +56,16 @@ main{
     background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 2rem;
 }
 
 /*Button section*/
 
 .button-container{
+    padding-left: 2rem;
     padding: 15px 0;
     border-bottom: 2px solid black ;
     width: 100%;
+    padding-left: 2rem;
 }
 
 .button{
@@ -86,6 +87,7 @@ main{
     color: hsl(0deg 0% 84.71%);
 }
 
+
 /*Lists*/
 
 .main-container-lists{
@@ -93,7 +95,34 @@ main{
     color:hsl(0deg 0% 29.02%);
 }
 
+.list-title{
+    padding-top: 2rem;    
+}
+
 ul{
     list-style-type: none;
 }
 
+/*Check and cross*/
+
+
+.check{
+    font-size: 12px;
+    border-radius: 50%;
+    text-align: center;
+    height: 1rem;
+    display: inline-block;
+    line-height: 1rem;
+    width: 1rem;
+    vertical-align: middle;
+}
+
+.done{
+    color: green;
+    border: solid 1px green;
+}
+
+.undone{
+    color: red;
+    border: solid 1px red;
+}
