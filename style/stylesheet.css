@@ -16,8 +16,7 @@ font-family: "Inter", sans-serif;
 }
 
 .background-gray{
-    background-color: hsl(207, 10%, 66%)
-;
+    background-color: rgb(246 248 250);
     height: 100%;
 }
 
@@ -33,14 +32,14 @@ header{
 }
 
 header img{
-    width: 100px;
+    width: 60px;
     vertical-align: middle;
 }
 
 h1{
     display: inline-block;
     vertical-align: middle;
-    font-size: 3rem
+    font-size: 2.5rem
 }
 
 /*MAIN*/
@@ -63,7 +62,7 @@ main{
 .button-container{
     padding-left: 2rem;
     padding: 15px 0;
-    border-bottom: 2px solid black ;
+    border-bottom: 2px solid rgb(246 248 250);
     width: 100%;
     padding-left: 2rem;
 }
@@ -71,7 +70,7 @@ main{
 .button{
     padding: 8px 12px;
     border-radius:5px;
-    border-color: hsl(207, 10%, 66%);
+    border-color: rgb(246 248 250);
     font-size: 0.75rem;
     border-color: hsl(0deg 0% 84.71%);
     border-style: solid;
@@ -93,6 +92,7 @@ main{
 .main-container-lists{
     line-height: 2rem;
     color:hsl(0deg 0% 29.02%);
+    padding-left: 2rem;
 }
 
 .list-title{
@@ -115,6 +115,7 @@ ul{
     line-height: 1rem;
     width: 1rem;
     vertical-align: middle;
+    text-align: center;
 }
 
 .done{
@@ -125,4 +126,38 @@ ul{
 .undone{
     color: red;
     border: solid 1px red;
+}
+
+/*Labels*/
+
+.label{
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 15px;
+}
+
+.editorial{
+    background-color: hsl(201.22deg 76.64% 58.04%);
+}
+
+.q1-goals{
+    background-color: hsl(261.36deg 72.84% 68.24%);
+}
+
+.recruiting{
+    background-color: hsl(164.82deg 38.97% 58.24%);
+}
+
+.website{
+    background-color:hsl(322.35deg 42.15% 76.27%) ;
+}
+
+.mobile{
+    background-color: rgb(241 162 46);
+}
+
+.sales{
+    background-color:rgb(179 203 54) ;
 }
