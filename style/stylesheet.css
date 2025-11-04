@@ -18,7 +18,7 @@ font-family: "Inter", sans-serif;
 .background-gray{
     background-color: hsl(207, 10%, 66%)
 ;
-    height: 100px;
+    height: 100%;
 }
 
 /*Regole*/
@@ -47,10 +47,53 @@ h1{
 
 main{
     padding: 50px;
+    height: 100%;
 }
 
 .wrapper{
     width: 80%;
     margin: 0 auto;
     background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2rem;
 }
+
+/*Button section*/
+
+.button-container{
+    padding: 15px 0;
+    border-bottom: 2px solid black ;
+    width: 100%;
+}
+
+.button{
+    padding: 8px 12px;
+    border-radius:5px;
+    border-color: hsl(207, 10%, 66%);
+    font-size: 0.75rem;
+    border-color: hsl(0deg 0% 84.71%);
+    border-style: solid;
+}
+
+.blue-button{
+    background-color: hsl(204.5deg 84.92% 60.98%);
+    color: white;
+}
+
+.white-button{
+    background-color: white;
+    color: hsl(0deg 0% 84.71%);
+}
+
+/*Lists*/
+
+.main-container-lists{
+    line-height: 2rem;
+    color:hsl(0deg 0% 29.02%);
+}
+
+ul{
+    list-style-type: none;
+}
+
