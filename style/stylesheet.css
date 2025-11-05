@@ -42,6 +42,10 @@ h1{
 
 /*MAIN*/
 
+.container{
+    height: 100vh;
+}
+
 main{
     padding: 50px;
     height: 100%;
